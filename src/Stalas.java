@@ -33,22 +33,9 @@ public class Stalas {
 				System.out.println(sortedPlacementCards);
 			}while(sortedPlacementCards.size() != 0);			
 			checkIfAllCardsPlayed(players);
-/*!!*/	System.out.println("Is all cards played: " + checkIfAllCardsPlayed(players));
 		}while(!checkIfAllCardsPlayed(players));		
 		calculatePoints(players);
 		printPenaltyPoints(players);
-		////////////////////////////////////////////////////////////////////////////////////////////
-		/*
-		 * TODO 
-		 * +patikrinti ar teisingai prideda kirstas kortas zaidejui 
-		 * +patikrinti ar prideda panaudotas korats i used card lista
-		 * 		initializeLines
-		 * 		
-		 * +padaryti tasku skaiciavima 
-		 * +atspausdinti nugaletoja 
-		 * SUTVARKYTI KODA
-		 * DONE
-		 */
 	}
 	
 	public void updateGVarUsedCards(ArrayList<Integer> arrayChosenCards) {
